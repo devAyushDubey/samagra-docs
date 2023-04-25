@@ -10,7 +10,7 @@ module.exports = {
   title: 'Documentation',
   tagline:
     'Genralized documentation',
-  url: process.env.URL,
+  url: 'samagra-docs.vercel.app',
   baseUrl: `${BASE_URL}/`,
   i18n: {
     defaultLocale: 'en',
