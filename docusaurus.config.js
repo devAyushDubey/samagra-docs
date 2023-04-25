@@ -4,13 +4,13 @@ const fetch = require('node-fetch');
 
 const VERSIONS_JSON = require('./versions.json');
 
-const BASE_URL = '/docs';
+const BASE_URL = '/';
 
 module.exports = {
   title: 'Documentation',
   tagline:
     'Genralized documentation',
-  url: 'http://localhost:3000',
+  url: process.env.URL,
   baseUrl: `${BASE_URL}/`,
   i18n: {
     defaultLocale: 'en',
